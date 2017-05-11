@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ganio"
+            android:icon="@mipmap/ganio_txt"
+            android:title="@string/GanioName"/>
+        <item android:id="@+id/nav_zixun"
+              android:icon="@mipmap/zixun"
+              android:title="@string/ZiXunName"/>
+        <item android:id="@+id/nav_douban"
+              android:icon="@mipmap/douban"
+              android:title="@string/doubanName"/>
+        <item
+            android:id="@+id/nav_music"
+            android:icon="@mipmap/music"
+            android:title="@string/MusicName"/>
+        <item
+            android:id="@+id/nav_comic"
+            android:icon="@mipmap/book_txt"
+            android:title="@string/ComicName"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share"/>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send"/>
+        </menu>
+    </item>
+
+</menu>
